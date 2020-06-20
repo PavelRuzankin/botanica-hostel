@@ -1,0 +1,16 @@
+@import "mixins.scss";
+@import "header.scss";
+@import "slider.scss";
+
+
+input {border: none; outline: none; background-color: rgba(0,0,0,0);}
+button {height: 100%; border: none; outline: none; background-color: rgba(0,0,0,0);}
+body{ overflow-x: hidden; margin: 0; padding: 0; font-family: $main-font;-ms-user-select: none;-moz-user-select: none;-khtml-user-select: none;-webkit-user-select: none;}
+ul{margin: 0; padding: 0;} li{list-style-type: none;}
+a{text-decoration: none;}
+
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}

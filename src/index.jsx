@@ -1,8 +1,9 @@
-import React from "react";
-import {render} from "react-dom"
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import "./scss/index.scss";
 
-const App = () => {
-    return <h1>Hello</h1>
-}
-
-render(<App/>, document.querySelector("#app"))
+ReactDOM.render(
+    <App />,
+  document.getElementById('app')
+);
